@@ -5,15 +5,33 @@
     <title>Diversi-Speak</title>
     <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+     <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
+
   <body>
-    <h1> Test </h1>
-    <!-- Compiled and minified Materialize JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <!-- for each speaker do -->
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header">{{speaker.image}}{{speaker.name}}</div>
+      <div class="collapsible-body">
+        <p>{{speaker.bio}}</p>
+        
+      </div>
+    </li>
+  </ul>
+
     <!-- JQuery CDN -->
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+    <!-- Font Awesome JS CDN -->
+  <script src="https://use.fontawesome.com/9c69998144.js"></script>
+    
   </body>
 </html>
