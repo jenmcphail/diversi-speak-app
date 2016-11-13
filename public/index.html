@@ -16,16 +16,24 @@
       <div class="collapsible-header">{{speaker.image}}{{speaker.name}}</div>
       <div class="collapsible-body">
         <p>{{speaker.bio}}</p>
-        
+        <a href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
+        <a href="{{speaker.links.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="{{speaker.links.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="{{speaker.links.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
     </li>
   </ul>
+
+<!-- JAVASCRIPTS -->
 
     <!-- JQuery CDN -->
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
+    
+    <!-- App JS -->
+    <script type="text/javascript" src="scripts.js"></script>
 
     <!-- Compiled and minified Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
