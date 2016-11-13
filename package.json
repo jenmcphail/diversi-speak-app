@@ -1,0 +1,41 @@
+{
+  "name": "diversi-speak",
+  "version": "1.0.0",
+  "description": "Diverse speakers for all your tech conference needs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenmcphail/diversi-speak-app.git"
+  },
+  "author": "Jen McPhail and Bill Himmelsbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenmcphail/diversi-speak-app/issues"
+  },
+  "homepage": "https://github.com/jenmcphail/diversi-speak-app#readme",
+  "dependencies": {
+    "@angular/common": "~2.1.1",
+    "@angular/compiler": "~2.1.1",
+    "@angular/core": "~2.1.1",
+    "@angular/forms": "~2.1.1",
+    "@angular/http": "~2.1.1",
+    "@angular/platform-browser": "~2.1.1",
+    "@angular/platform-browser-dynamic": "~2.1.1",
+    "@angular/router": "~3.1.1",
+    "@angular/upgrade": "~2.1.1",
+
+    "angular-in-memory-web-api": "~0.1.5",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2"
+  }
+}
