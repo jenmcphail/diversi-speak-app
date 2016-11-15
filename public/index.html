@@ -6,10 +6,15 @@
     <title>Diversi-Speak</title>
   
   <!-- CSS -->
+
     <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
      <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- ANGULAR -->
   <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
@@ -17,22 +22,32 @@
   
   </head>
 
+  
+
   <body ng-app="equalPlatform">
-    <div ng-controller="SpeakersCtrl">
-      <!-- <pre>{{ speakers | json }}</pre> -->
-    <ul class="collapsible" data-collapsible="accordion">
-      <li ng-repeat="speaker in speakers">
-        <div class="collapsible-header">{{speaker.name}}, {{speaker.title}}</div>
-        <div class="collapsible-body">
-          <p>{{speaker.bio}}</p>
-          <a href={{speaker.links.website}}><i class="fa fa-globe" aria-hidden="true"></i></a>
-          <a href={{speaker.links.github}}><i class="fa fa-github" aria-hidden="true"></i></a>
-          <a href={{speaker.links.twitter}}><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href={{speaker.links.linkedin}}><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </div>
-      </li>
-  </ul>
-    </div>
+
+    <header class="dark-primary-color">
+      <h1>Equal Platform</h1>
+      <img src="./img/equal-platform-logo.png">
+    </header>
+
+    <section>
+      <div ng-controller="SpeakersCtrl">
+        <!-- <pre>{{ speakers | json }}</pre> -->
+        <ul class="collapsible" data-collapsible="accordion">
+          <li ng-repeat="speaker in speakers">
+            <div class="collapsible-header">{{speaker.name}}, {{speaker.title}}</div>
+            <div class="collapsible-body">
+              <p>{{speaker.bio}}</p>
+              <a href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
+              <a href="{{speaker.links.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="{{speaker.links.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="{{speaker.links.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
   
 
 
@@ -49,6 +64,7 @@
 
     <!-- Compiled and minified Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
 
     <!-- Font Awesome JS CDN -->
   <script src="https://use.fontawesome.com/9c69998144.js"></script>
