@@ -18,8 +18,9 @@
   </head>
 
   <body ng-app="equalPlatform">
-
-    {{ 4 * 4 }}
+    <div ng-controller="SpeakerCtrl">
+      <pre>{{ speakers }}</pre>
+    </div>
   
     <ul class="collapsible" data-collapsible="accordion">
   <!-- For each speaker in speakers... -->
