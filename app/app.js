@@ -1,6 +1,6 @@
 var app = angular.module("equalPlatform", []);
 
-app.controller("SpeakerCtrl", function($scope) {
+app.controller("SpeakersCtrl", function($scope) {
   $scope.speakers = [
     {
       name: 'Iheanyi Ekechukwu', title: 'Software Engineer', company: 'DigitalOcean',
