@@ -1,0 +1,50 @@
+.dark-primary-color    { background: #1976D2; }
+.default-primary-color { background: #2196F3; }
+.light-primary-color   { background: #BBDEFB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFC107; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.title, .tagline{
+  color: #FFFFFF;
+}
+
+.title{
+  margin-bottom: 0%
+}
+
+.tagline{
+  margin-bottom: 5%
+}
+
+.logo{
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-bottom: 2.5%
+}
+
+.btn-container{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+
+.btn{
+  margin: 2.5%;
+  width: 50%;
+  background-color: #FFC107;
+}
+
+
+
