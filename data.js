@@ -1,4 +1,4 @@
-var speakers = [
+const speakers = [
   {
     name: 'Iheanyi Ekechukwu', title: 'Software Engineer', company: 'DigitalOcean',
     links:

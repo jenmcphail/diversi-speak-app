@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Diversi-Speak</title>
+  
+  <!-- CSS -->
     <!-- Compiled and minified Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
      <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  
   </head>
 
   <body>
-  <!-- for each speaker do -->
-  <ul class="collapsible" data-collapsible="accordion">
+  
+    <ul class="collapsible" data-collapsible="accordion">
+  <!-- For each speaker in speakers... -->
     <li>
       <div class="collapsible-header">{{speaker.image}}{{speaker.name}}</div>
       <div class="collapsible-body">
         <p>{{speaker.bio}}</p>
-        <a href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-        <a href="{{speaker.links.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="{{speaker.links.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="{{speaker.links.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href={{speaker.links.website}}><i class="fa fa-globe" aria-hidden="true"></i></a>
+        <a href={{speaker.links.github}}><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href={{speaker.links.twitter}}><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href={{speaker.links.linkedin}}><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
     </li>
   </ul>
+
 
 <!-- JAVASCRIPTS -->
 
