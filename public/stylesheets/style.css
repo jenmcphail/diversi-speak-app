@@ -9,7 +9,6 @@
 
 .container{
   display: flex;
-  text-align: center;
   justify-content: center;
   align-content: center;
   flex-direction: column;
@@ -17,6 +16,7 @@
 
 .title, .tagline{
   color: #FFFFFF;
+  text-align: center;
 }
 
 .title{
@@ -36,25 +36,34 @@
 
 .btn-container{
   display: flex;
-  text-align: center;
   flex-direction: row;
+  text-align: center;
+ 
 }
 
 .btn{
-  margin: 2.5%;
-  width: 50%;
   background-color: #FFC107;
 }
 
 .btn-link{
-  color: #FFFFFF;
+  width: 50%;
+  margin: 2.5%;
 }
 
 /*ABOUT PAGE
 */
 
+.about-content{
+  margin-top: 5%;
+}
+
+.back-btn{
+  margin-left: 25%;
+}
+
 .note{
-  text-decoration: italic;
+  font-style: italic;
+  text-align: center;
 }
 
 
