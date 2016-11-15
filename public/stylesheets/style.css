@@ -46,5 +46,15 @@
   background-color: #FFC107;
 }
 
+.btn-link{
+  color: #FFFFFF;
+}
+
+/*ABOUT PAGE
+*/
+
+.note{
+  text-decoration: italic;
+}
 
 
