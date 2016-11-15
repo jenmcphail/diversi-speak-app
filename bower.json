@@ -1,0 +1,20 @@
+{
+  "name": "Equal Platform",
+  "description": "Diverse speakers for all your tech conference needs",
+  "main": "index.js",
+  "authors": [
+    "Jen McPhail and Bill Himmelsbach"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jenmcphail/diversi-speak-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
