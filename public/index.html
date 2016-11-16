@@ -46,10 +46,12 @@
 
     <section>
       <div ng-controller="SpeakersCtrl">
-        <!-- <pre>{{ speakers | json }}</pre> -->
         <ul class="collapsible" data-collapsible="accordion">
           <li ng-repeat="speaker in speakers">
-            <div class="collapsible-header">{{speaker.name}}, {{speaker.title}}</div>
+            <div class="collapsible-header">  <h3>{{speaker.name}}</h3>
+              <p>{{speaker.title}}</p>
+              <p>{{speaker.company}}</p>
+            </div>
             <div class="collapsible-body">
               <p>{{speaker.bio}}</p>
               <a href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
