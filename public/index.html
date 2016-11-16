@@ -44,18 +44,22 @@
       </div>
     </header>
 
-    <section>
-      <div ng-controller="SpeakersCtrl">
-        <!-- <pre>{{ speakers | json }}</pre> -->
+    <section class="background">
+      <div class="speaker-cards"ng-controller="SpeakersCtrl">
         <ul class="collapsible" data-collapsible="accordion">
           <li ng-repeat="speaker in speakers">
-            <div class="collapsible-header">{{speaker.name}}, {{speaker.title}}</div>
+            <div class="collapsible-header">  <h3>{{speaker.name}}</h3>
+              <p>{{speaker.title}}</p>
+              <p>{{speaker.company}}</p>
+            </div>
             <div class="collapsible-body">
               <p>{{speaker.bio}}</p>
-              <a href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-              <a href="{{speaker.links.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="{{speaker.links.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="{{speaker.links.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <div class="speaker-links-container">
+                <a class="speaker-links" href="{{speaker.links.website}}"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                <a class="speaker-links" href="{{speaker.links.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="speaker-links" href="{{speaker.links.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="speaker-links" href="{{speaker.links.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
             </div>
           </li>
         </ul>

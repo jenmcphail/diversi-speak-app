@@ -7,12 +7,15 @@
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 
+
 .container{
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
 }
+
+/*HEADER*/
 
 .title, .tagline{
   color: #FFFFFF;
@@ -54,8 +57,7 @@
   background-color: #2196F3;;
 }
 
-/*ABOUT PAGE
-*/
+/*ABOUT PAGE*/
 
 .about-content{
   margin-top: 5%;
@@ -64,6 +66,24 @@
 .note{
   font-style: italic;
   text-align: center;
+}
+
+/*SPEAKER CARDS*/
+.speaker-links-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.speaker-links{
+  color: #212121;
+  text-align: center;
+  margin: 2%;
+}
+
+.speaker-cards{
+  margin: 5%;
 }
 
 
