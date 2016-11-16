@@ -7,6 +7,10 @@
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 
+body{
+  background-color: #BBDEFB;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -79,6 +83,10 @@
   color: #212121;
   text-align: center;
   margin: 2%;
+}
+
+.speaker-cards{
+  margin: 5%;
 }
 
 
