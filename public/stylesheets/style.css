@@ -57,17 +57,6 @@
   background-color: #2196F3;;
 }
 
-/*ABOUT PAGE*/
-
-.about-content{
-  margin-top: 5%;
-}
-
-.note{
-  font-style: italic;
-  text-align: center;
-}
-
 /*SPEAKER CARDS*/
 .speaker-links-container{
   display: flex;
@@ -84,6 +73,17 @@
 
 .speaker-cards{
   margin: 5%;
+}
+
+/*ABOUT PAGE*/
+
+.about-content{
+  margin-top: 5%;
+}
+
+.note{
+  font-style: italic;
+  text-align: center;
 }
 
 
